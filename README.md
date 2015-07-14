@@ -3,12 +3,12 @@ Facebook message notifications on linux using Python without Graph API
 
 # Requirements
 
-Python 2.7+
+- Python 2.7+
 
-pip
+- pip
 
-sudo easy_install pip
+  sudo easy_install pip
 
-BeautifulSoup
+- BeautifulSoup
 
-pip install beautifulsoup4
+  pip install beautifulsoup4
