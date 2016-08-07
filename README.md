@@ -1,7 +1,7 @@
 # PyFy
 Facebook message notifications on linux using Python without Graph API
 
-# Requirements
+## Requirements
 
 - Python 2.7+
 
