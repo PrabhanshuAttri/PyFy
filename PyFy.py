@@ -7,6 +7,7 @@ import codecs
 import string
 import re
 import subprocess
+from os import environ
 
 fbURL = "https://m.facebook.com/messages/?ref_component=mbasic_home_header&ref_page=%2Fwap%2Fhome.php&refid=7"
 file1 = 'a.html'
@@ -32,8 +33,8 @@ class PyFB:
 
     def login(self):
       # edit this first
-    	email = 'your_email'
-    	mypassword = 'your_fb_password'
+    	email = environ.get('PYFY_FB_USER_EMAIL', None)
+    	mypassword = environ.get('PYFY_FB_PASSWORD', None)
         try:
         	print 'Logging into facebook...'
         	print 'Email: ' + email
