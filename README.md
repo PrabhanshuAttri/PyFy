@@ -14,4 +14,6 @@ Facebook message notifications on linux using Python without Graph API.
   > pip install beautifulsoup4
 
 ## Usage
-	python PyFy.py
+    export PYFY_FB_USER_EMAIL="your_email"
+    export PYFY_FB_PASSWORD="your_fb_password"
+    python PyFy.py
