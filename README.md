@@ -7,11 +7,7 @@ Facebook message notifications on linux using Python without Graph API.
 
 - pip
 
-  > sudo easy_install pip
-
 - BeautifulSoup
-
-  > pip install beautifulsoup4
 
 ## Installing Dependencies
     pip install -r requirements.txt
